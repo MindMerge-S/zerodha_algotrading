@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 
-
+#changes
 # Request models
 class TradeCommand(BaseModel):
     command: str
