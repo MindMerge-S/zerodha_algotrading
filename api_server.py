@@ -16,8 +16,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-#changes
 # Request models
 class TradeCommand(BaseModel):
     command: str
