@@ -95,6 +95,8 @@ def orders():
     result = get_orders()
     return result
 
+
+#changes
 # Get all indices endpoint
 @app.get("/indices")
 def indices():
@@ -102,6 +104,6 @@ def indices():
     result = get_all_indices()
     return result
 
-if __name__ == "__main__":
+if __name__ == "__main__":  
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
